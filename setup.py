@@ -23,7 +23,7 @@ setup(
     install_requires=[
         'zc.buildout',
         'zc.recipe.egg',
-        'dr-dump',
+        'dr-dump>=0.2.2',
     ],
     entry_points={
         'zc.buildout': [
